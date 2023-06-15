@@ -1,0 +1,13 @@
+устанавливали библиотеки, импортировали 
+import requests
+import random
+import telebot
+import json
+from config import token, api_key
+from telebot import types
+from bs4 import BeautifulSoup as b
+
+писали функции для парсинга - чтобы выдавать необходимую информацию по запросу (+ использовали встроеную  random)
+
+создание телеграм бота с активными кнопками
+привязка сайтов с api для доступа к интересующим сайтам и выдачи необходимой информации для пользователя по его запросу 
